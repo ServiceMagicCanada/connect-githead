@@ -2,6 +2,10 @@
 
 A connect middleware that reads the `git rev-parse HEAD` SHA1 signature and outputs it as json with a timestamp.
 
+# Install
+
+    npm install connect-githead
+
 
 Output JSON is like:
 

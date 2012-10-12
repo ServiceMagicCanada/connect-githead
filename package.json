@@ -1,12 +1,16 @@
 {
-  "name": "node-heartbeat",
+  "name": "connect-githead",
   "version": "0.0.1",
-  "description": "ERROR: No README.md file found!",
-  "main": "index.js",
+  "description": "Reads the `git rev-parse HEAD` SHA1 signature and outputs it as json. Acts as connect/express endpoint module",
+  "main": "githead.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodeunit ./test/githead.js"
   },
-  "repository": "",
-  "author": "",
+  "devDependencies":{
+    "request":"~2.11.4",
+    "nodeunit":"~0.7.4"
+  },
+  "repository": "https://github.com/quickredfox/connect-githead.git",
+  "author": "Francois Lafortune, @quickredfox",
   "license": "BSD"
 }
